@@ -10,7 +10,7 @@ const Footer = () => {
         <footer className="" >
             <section className="">
                 <div className={`container bg-[#1C3764] py-3 relative`}>
-                    <div className="">
+                    <div className="hidden md:block">
                         <Image src={shape} alt="shape" className="absolute -mt-3 z-0" />
                     </div>
                     <div className={`flex flex-col md:flex-row p-2 p-md-5 w-full py-20`}>
@@ -56,7 +56,7 @@ const Footer = () => {
                         </div>
 
                     </div>
-                    <div className="">
+                    <div className="hidden md:block">
                         <Image src={shape} alt="shape" className="absolute right-0 bottom-0 z-0" />
                     </div>
                 </div>
