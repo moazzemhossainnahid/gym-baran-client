@@ -17,9 +17,9 @@ const Programs = () => {
             <section className="">
                 <div className={`container bg-[#E5E5E5] py-3 relative`}>
                     <div className="w-full md:w-1/3 mx-auto text-center text-3xl md:text-5xl">
-                        <h2 style={{ fontFamily: "SportingGrotesque" }} className="">Programs that can be taken</h2>
+                        <h2 style={{ fontFamily: "SportingGrotesque" }} className="">Programs that can <br /> be taken</h2>
                     </div>
-                    <div className={`grid grid-cols-1 md:grid-cols-2 lg:grid-cls-3 justify-around items-center p-2 p-md-5 w-full md:w-4/5 mx-auto py-20`}>
+                    <div className={`grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 justify-around items-center p-2 p-md-5 w-full mx-auto py-20 gap-3`}>
                         <div className="flex flex-row justify-around items-center p-3 text-left gap-1 w-full">
                             <div className="w-1/3 items-center justify-center flex">
                                 <div className="absolute">
@@ -60,7 +60,7 @@ const Programs = () => {
                                 />
                             </div>
                             <div className="w-2/3 space-y-2">
-                                <h2 className="font-bold">Gets ABS in 2 weeks</h2>
+                                <h2 className="font-bold">25 Mins full body workout</h2>
                                 <p className="text-gray-500">Exercise is a very important need for our body. </p>
                             </div>
                         </div>
@@ -82,7 +82,73 @@ const Programs = () => {
                                 />
                             </div>
                             <div className="w-2/3 space-y-2">
-                                <h2 className="font-bold">Gets ABS in 2 weeks</h2>
+                                <h2 className="font-bold">10 Mins toned arms workout</h2>
+                                <p className="text-gray-500">Exercise is a very important need for our body. </p>
+                            </div>
+                        </div>
+                        <div className="flex flex-row justify-around items-center p-3 text-left gap-1 w-full">
+                            <div className="w-1/3 items-center justify-center flex">
+                                <div className="absolute">
+                                    <Image
+                                        className="w-24 h-24 p-5"
+                                        src={group3}
+                                        alt="logo"
+                                        title="logo"
+                                    />
+                                </div>
+                                <Image
+                                    className="w-32 h-32"
+                                    src={round3}
+                                    alt="logo"
+                                    title="logo"
+                                />
+                            </div>
+                            <div className="w-2/3 space-y-2">
+                                <h2 className="font-bold">15 Mins full body fat burn</h2>
+                                <p className="text-gray-500">Exercise is a very important need for our body. </p>
+                            </div>
+                        </div>
+                        <div className="flex flex-row justify-around items-center p-3 text-left gap-1 w-full">
+                            <div className="w-1/3 items-center justify-center flex">
+                                <div className="absolute">
+                                    <Image
+                                        className="w-24 h-24 p-5"
+                                        src={group4}
+                                        alt="logo"
+                                        title="logo"
+                                    />
+                                </div>
+                                <Image
+                                    className="w-32 h-32"
+                                    src={round1}
+                                    alt="logo"
+                                    title="logo"
+                                />
+                            </div>
+                            <div className="w-2/3 space-y-2">
+                                <h2 className="font-bold">25 Mins HIIT workout</h2>
+                                <p className="text-gray-500">Exercise is a very important need for our body. </p>
+                            </div>
+                        </div>
+                        <div className="flex flex-row justify-around items-center p-3 text-left gap-1 w-full">
+                            <div className="w-1/3 items-center justify-center flex">
+                                <div className="absolute">
+                                    <Image
+                                        className="w-24 h-24 p-5"
+                                        src={group5}
+                                        alt="logo"
+                                        title="logo"
+                                    />
+                                </div>
+                                <Image
+                                    className="w-32 h-32"
+                                    src={round2}
+                                    alt="logo"
+                                    title="logo"
+                                />
+                            </div>
+                            <div className="w-2/3 space-y-2">
+                                <h2 className="font-bold">Intense lower Abs workout</h2>
                                 <p className="text-gray-500">Exercise is a very important need for our body. </p>
                             </div>
                         </div>
