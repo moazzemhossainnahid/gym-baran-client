@@ -1,6 +1,7 @@
+import Image from "next/image";
 import React from "react";
 
-const Testimonials = () => {
+const HowWorks = () => {
 
     return (
         <div className="" >
@@ -45,4 +46,4 @@ const Testimonials = () => {
     );
 };
 
-export default Testimonials;
+export default HowWorks;
