@@ -10,7 +10,7 @@ const Testimonials = () => {
         <div className="" >
             <section className="">
                 <div className={`container bg-[#E5E5E5] py-3 relative`}>
-                    <div className="w-full mx-auto text-center text-3xl">
+                    <div className="w-full mx-auto text-center text-3xl md:text-5xl">
                         <h2 style={{ fontFamily: "SportingGrotesque" }} className="">Testimonials</h2>
                     </div>
                     <div className={`flex flex-col md:flex-row justify-around items-center p-2 p-md-5 w-full md:w-4/5 mx-auto py-20`}>
